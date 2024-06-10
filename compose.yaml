@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+
+  sync:
+    build:
+      context: .
+    volumes:
+      - "./sync-origin:/actor-bu/sync-origin:ro"
+      - "./sync-dest:/actor-bu/sync-dest:rw"
