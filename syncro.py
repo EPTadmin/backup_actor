@@ -15,9 +15,7 @@ cwd = os.getcwd()  # Get the current working directory (cwd)
 files = os.listdir(cwd)  # Get all the files in that directory
 print("Files in %r: %s" % (cwd, files))
 
-# read the webhook for posting slack messages
 
-#webhook_url = "https://hooks.slack.com/services/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"
 
 
 def sync_that_stuff():
